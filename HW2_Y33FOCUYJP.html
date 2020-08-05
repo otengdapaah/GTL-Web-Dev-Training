@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW2_Y33FOCUYJP</title>
+</head>
+
+<body>
+    <button id="btnGetDate">GET DATE</button>
+    <p id="lblShowDate"></p>
+</body>
+
+<script>
+    const btn = document.getElementById('btnGetDate');
+
+    btn.addEventListener('click', function() {
+        const date = new Date();
+        document.getElementById('lblShowDate').innerHTML = date
+    })
+</script>
+
+</html>
